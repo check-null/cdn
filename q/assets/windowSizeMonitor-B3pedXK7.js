@@ -1,0 +1,1 @@
+import{a as t,b as o,Y as d}from"./vlib-Cn1ZCOTB.js";function w(){const e=t(window.innerWidth),n=t(window.innerHeight),i=()=>{e.value=window.innerWidth,n.value=window.innerHeight};return o(()=>{window.addEventListener("resize",i)}),d(()=>{window.removeEventListener("resize",i)}),{width:e,height:n}}export{w as u};
