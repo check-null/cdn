@@ -1,0 +1,1 @@
+import{r as o,o as i,a3 as s}from"./index-BxFS-j2d.js";function d(t=768){const n=o(!1);let e;const a=()=>{n.value=window.innerWidth<=t};return i(()=>{e=window.matchMedia(`(max-width: ${t}px)`),n.value=e.matches,e.addEventListener("change",a)}),s(()=>{e&&e.removeEventListener("change",a)}),{isMobile:n}}export{d as u};
